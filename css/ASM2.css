@@ -1,0 +1,21 @@
+h1{
+    font-family: Arial;
+    color: initial;
+    font-size: 27px;
+    line-height: normal;
+    font-weight: 600;
+    width: 687px;
+}
+h5{
+    font-family: Arial;
+    font-size: 13px;
+    color: #999;
+    font-weight: 500;
+}
+p{
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+    width: 687px;
+}
