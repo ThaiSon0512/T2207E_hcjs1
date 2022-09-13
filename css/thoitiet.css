@@ -1,0 +1,16 @@
+.box-weather{
+    float: left;
+    width: calc(25% - 30px);
+    background-color: rgba(153, 153, 153, 0.5);
+    margin: 15px;
+    padding: 15px;
+    border-radius: 6px;
+    color: white;
+    height: 130px;
+}
+.box-weather img{
+    transform: translate(120px,-80px);
+}
+.forecast-page{
+    background-image: url("../images1/Anh4.jpg");
+}
