@@ -1,3 +1,4 @@
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, dl, dt, dd, ol, nav ul, nav li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
     padding: 0;
@@ -31,7 +32,7 @@ table {
     border-spacing: 0;
 }
 
-/*-- start editing from here --*/
+
 a {
     text-decoration: none;
 }
@@ -40,76 +41,69 @@ a {
     text-align: right;
 }
 
-/* text align right */
+
 .txt-lt {
     text-align: left;
 }
 
-/* text align left */
+
 .txt-center {
     text-align: center;
 }
 
-/* text align center */
+
 .float-rt {
     float: right;
 }
 
-/* float right */
+
 .float-lt {
     float: left;
 }
 
-/* float left */
+
 .clear {
     clear: both;
 }
 
-/* clear float */
+
 .pos-relative {
     position: relative;
 }
 
-/* Position Relative */
+
 .pos-absolute {
     position: absolute;
 }
 
-/* Position Absolute */
+
 .vertical-base {
     vertical-align: baseline;
 }
 
-/* vertical align baseline */
+
 .vertical-top {
     vertical-align: top;
 }
 
-/* vertical align top */
+
 nav.vertical ul li {
     display: block;
 }
 
-/* vertical menu */
+
 nav.horizontal ul li {
     display: inline-block;
 }
 
-/* horizontal menu */
+
 img {
     max-width: 100%;
 }
 
-/*-- end reset --*/
+
 body {
-    background: #76b852;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #76b852, #8DC26F);
-    background: -moz-linear-gradient(to top, #76b852, #8DC26F);
-    background: -o-linear-gradient(to top, #76b852, #8DC26F);
-    background: linear-gradient(to top, #76b852, #8DC26F);
-    background-size: cover;
-    background-attachment: fixed;
+    background: cadetblue;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -151,7 +145,15 @@ h1 {
 .agileits-top {
     padding: 3em;
     background-color: white;
+    position: page;
+
 }
+
+.input-icon{
+    float: right;
+}
+
+
 
 input[type="text"], input[type="email"], input[type="password"] {
     font-size: 0.9em;
@@ -201,12 +203,12 @@ input.email, input.text.w3lpass {
 }
 
 :-moz-placeholder {
-    /* Firefox 18- */
+
     color: #fff;
 }
 
 ::-moz-placeholder {
-    /* Firefox 19+ */
+
     color: #fff;
 }
 
@@ -239,14 +241,14 @@ input[type="submit"]:hover {
 
 .agileits-top p {
     font-size: 1em;
-    color: #fff;
+    color: black;
     text-align: center;
     letter-spacing: 1px;
     font-weight: 300;
 }
 
 .agileits-top p a {
-    color: #fff;
+    color: purple;
     -webkit-transition: .5s all;
     -moz-transition: .5s all;
     transition: .5s all;
@@ -257,8 +259,7 @@ input[type="submit"]:hover {
     color: #76b852;
 }
 
-/*-- //main --*/
-/*-- checkbox --*/
+
 .wthree-text label {
     font-size: 0.9em;
     color: #fff;
@@ -335,8 +336,7 @@ input.checkbox:checked:after {
     }
 }
 
-/*-- //checkbox --*/
-/*-- copyright --*/
+
 .colorlibcopy-agile {
     margin: 2em 0 1em;
     text-align: center;
@@ -363,7 +363,6 @@ input.checkbox:checked:after {
     color: #000;
 }
 
-/*-- //copyright --*/
 .wrapper {
     position: relative;
     overflow: hidden;
@@ -470,16 +469,16 @@ input.checkbox:checked:after {
     animation-delay: 7s;
 }
 
-.colorlib-bubbles li:nth-child(😎 {
+.colorlib-bubbles li:nth-child(8) {
     left: 55%;
-width: 20px;
-height: 20px;
--webkit-animation-delay: 15s;
--moz-animation-delay: 15s;
-animation-delay: 15s;
--webkit-animation-duration: 40s;
--moz-animation-duration: 40s;
-animation-duration: 40s;
+    width: 20px;
+    height: 20px;
+    -webkit-animation-delay: 15s;
+    -moz-animation-delay: 15s;
+    animation-delay: 15s;
+    -webkit-animation-duration: 40s;
+    -moz-animation-duration: 40s;
+    animation-duration: 40s;
 }
 
 .colorlib-bubbles li:nth-child(9) {
@@ -537,7 +536,7 @@ animation-duration: 40s;
     }
 }
 
-/*-- responsive-design --*/
+
 @media(max-width:1440px) {
     input[type="text"], input[type="email"], input[type="password"] {
         width: 94%;
